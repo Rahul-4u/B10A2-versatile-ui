@@ -146,8 +146,8 @@
 .banner-left-btn button span{
     display: none;
     font-weight: 100;
-    font-style: italic;
-    font-family: "Pinyon Script", cursive;
+    font-style: normal;
+
 
 
 }
@@ -282,6 +282,7 @@ color: rgba(217, 221, 224, 0.329);
     max-width: 1440px;
     height: auto;
     margin: 0 auto;
+    padding: 30px 0;
     margin-top: 0;
     align-items: center;
     justify-content: center;
@@ -642,4 +643,88 @@ color: rgba(217, 221, 224, 0.329);
             
           }
 
+          /* ------services container------ */
+
+          .Serivces{
+            max-width: 1440px;
+            height: auto;
+            margin: 0 auto;
+            padding: 30px 0;
+            margin-top: 0;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            flex-direction: column;
+            background-color: black;
+        }
+        
+        .services-container{
+                width: 80%;
+                height: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 30px auto;
+                align-items: center;
+                gap: 24px;
+                padding: 10px 0;
+                border-radius: 18px;
+                padding: 50px 0;
+            }
+            .services-titel{
+                width: 60%;
+                height: auto;
+                text-align: center;
+                padding: 30px 0;
+              }
+                 .services-titel h1{
+                    font-size: 28px;
+                    line-height: 33px;
+                    color: white;
+                    margin-bottom: 15px;
+                }
+                .services-titel p{
+                    color: rgba(255, 255, 255, 0.5);
+            
+                }
+                .services-items{
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 45px;
+                }
+                .services-item{
+                    background-color: rgb(26, 25, 25);
+                    max-width: 290px;
+                    padding: 10px;
+                    border-radius: 16px;
+                    box-shadow: 2px 5px 15px rgb(78, 78, 78);
+                }
+                .services-item .img{
+                  width: 100%;
+                  margin-bottom: 10px;
+                }
+                .services-item  .img img{
+                    width: 100%;
+                    border-radius: 16px 16px 0 0;
+                }
+
+                .services-item h4{
+                    font-size: 28px;
+                    line-height: 33px;
+                    color: white;
+                    margin-bottom: 15px;
+                }
+                .services-item p{
+                    color: rgba(255, 255, 255, 0.5);
+                    margin-bottom: 15px;
+            
+                }
+
+                .services-item button{
+                    padding: 8px 25px;
+                    border-radius: 16px;
+                    background-color: rgba(233, 96, 10, 0.868);
+
+                }
+        
           
