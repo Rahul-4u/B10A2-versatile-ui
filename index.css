@@ -1,6 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
 
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Inter:wght@100..900&family=Pinyon+Script&display=swap');
+
+  
+
+.dg {
+    font-family: "Allura", cursive;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 48px;
+  }
+  
+
+
 .inter{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -109,10 +125,7 @@
     margin-bottom: 30px;
     
 }
-.banner-left-text span{
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 .banner-left-text p{
     font-size: 18px;
     color: rgb(255, 255, 255, 0.5);
@@ -132,6 +145,11 @@
 
 .banner-left-btn button span{
     display: none;
+    font-weight: 100;
+    font-style: italic;
+    font-family: "Pinyon Script", cursive;
+
+
 }
 .banner-left-btn button:first-child{
     background-color: #E6533C;
