@@ -10,12 +10,21 @@
         margin-bottom: 0;
         padding-bottom: 0;
     }
-    .nav-btn {
+    .nav-btn{
         display: block;
+        background-color: rgba(246, 243, 243, 0);
+    }
+    .nav-btn button{
+        background-color: rgb(22, 21, 21);
     }
     .nav-container{
         width: 90%;
         height: auto;
+    }
+    #nav-btnn{
+        color: rgb(253, 251, 251);
+        background-color: rgba(0, 255, 255, 0);
+        font-size: 25px;
     }
     
     /* -----banner-container start-------- */
@@ -49,13 +58,34 @@
     .banner-left-btn button p{
         display: none;
     }
-     .img-btn2{
-      right: 55%;
+     .img-btn1{
+        max-width: 250px;
+        top:15%;
+        left: 55%;
+        padding: 8px 5px;
+    }
+
+    .img-btn2{
+        max-width: 250px;
+        bottom: 15%;
+        right: 70%;
+        padding: 8px 5px;
+    }
+
+
+    .img-btn1 h1, .img-btn2 h1{
+        color: white;
+        font-size: 22px;
+    }
+    .img-btn1 p , .img-btn2 p{
+        color: rgb(222, 220, 220);
+        font-size: 10px;
     }
     
 
     /* habits-------------- */
      .habits-container{
+        max-width: 250px;
         width: 90%;
         padding: 0;
      }
@@ -164,7 +194,7 @@ table{
 }
 th, td{
     border: 2px solid white;
-    padding: 12px 25px ;
+    padding: 12px 15px ;
 
 }
 .bmi-form{
@@ -192,7 +222,17 @@ margin-top: 40px;
     padding: 12px;
 }
 
+.team-img-1 {
+    mix-width: 300px;
+    height: 250px;
+
+    
+}
+
 /* -----footer item------ */
+.display-none{
+    display: none;
+}
 .footer-container{
     width: 90%;
 }
