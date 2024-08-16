@@ -20,6 +20,7 @@
     .nav-container{
         width: 90%;
         height: auto;
+        padding: 10px 18px;
     }
     #nav-btnn{
         color: rgb(253, 251, 251);
